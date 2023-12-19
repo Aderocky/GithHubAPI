@@ -137,7 +137,7 @@ class DetailActivity : AppCompatActivity() {
             .load(theResponse.avatarUrl)
             .into(binding.ivAvatar)
         binding.tvLogin.text = theResponse.login
-        binding.tvName.text = theResponse.name.toString()
+        binding.tvName.text = theResponse.name?.toString() ?: ""
         binding.followerAcc.text = theResponse.followers.toString()
         binding.followingAcc.text = theResponse.following.toString()
     }
