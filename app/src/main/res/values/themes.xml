@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithHubAPI_Ade" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" >@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.GithHubAPI_Ade" parent="Base.Theme.GithHubAPI_Ade" />
+
+    <style name="CircleStyle">
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="strokeColor">@color/black</item>
+    </style>
+    <style name="barStyle">
+        <item name="android:background">@color/white</item>
+        <item name="titleTextColor">@color/black</item>
+    </style>
+    <style name="tabStyle">
+        <item name="android:background">@color/black</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+    <style name="textStyle">
+        <item name="textBackground">@color/black</item>
+    </style>
+
+
+    <style name="CardStyle">
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="strokeColor">@color/black</item>
+    </style>
+
+</resources>
